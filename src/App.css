@@ -1,0 +1,55 @@
+.page {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.listItem {
+  background-color: #50C878; 
+  text-align: left; 
+  margin: 10px 0px; 
+  padding: 10px;
+}
+
+.listItem .albumTitle {
+  text-transform: uppercase; 
+  display: block; 
+  font-size: x-large;
+}
+
+.listItem .user {
+  text-transform: capitalize;
+  display: block;
+}
+
+.pagination {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pagination button {
+  background-color: #00BFFF;
+  color: #FFF;
+  height: 40px;
+  width: 80px;
+  font-size: unset
+}
+
+.pagination button:disabled {
+  background: antiquewhite;
+}
+
+.currentPage {
+  padding: 5px 10px;
+  margin: 0 5px; 
+  background-color: #00BFFF;
+  color: #FFF; 
+  font-weight: bold;
+}
+
+.regularPage {
+  padding: 10px; 
+  margin: 0 5px; 
+  font-weight: bold;
+}

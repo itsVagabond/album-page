@@ -1,0 +1,13 @@
+export const FETCH_ALBUMS = "FETCH_ALBUMS";
+export const FETCH_ALBUMS_SUCCESS = "FETCH_ALBUMS_SUCCESS";
+export const FETCH_ALBUMS_FAILURE = "FETCH_ALBUMS_FAILURE";
+
+export const FETCH_USERS = "FETCH_USERS";
+export const FETCH_USERS_SUCCESS = "FETCH_USERS_SUCCESS";
+export const FETCH_USERS_FAILURE = "FETCH_USERS_FAILURE";
+
+export const GENERATE_LIST = "GENERATE_LIST";
+export const NEXT_PAGE = "NEXT_PAGE";
+export const PREV_PAGE = "PREV_PAGE";
+
+export const pageLimit = 5;
